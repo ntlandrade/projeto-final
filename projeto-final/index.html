@@ -13,7 +13,7 @@
     body{
       background-color: #332723;
       font-family:'Baloo Thambi 2';
-      }
+    }
 
     .fundo{
       background-image: url("imagens/fundo2.png");
@@ -24,7 +24,7 @@
     .logo{
       width: 156px;
       margin-top:10px;
-      }
+    }
 
     .nav-link{
       color: #FFFFFF;
@@ -39,7 +39,6 @@
       color:#FFFFFF;
       border: none;
       font-size: 18px;
-      
     }
 
     .titulo {
@@ -77,7 +76,6 @@
       border:#FFFFFF solid 2px;
       text-align: center;
       padding: 3px;
-
     }
 
     .personagens-titulo {
@@ -87,7 +85,6 @@
 
     .conteiner {
       display: flex;
-      
     }
 
     .img{
@@ -121,10 +118,41 @@
       margin:5px;
     }
 
+    .navbar-toggler  {
+      background-color: #bc4f17;
+      color:#FFFFFF;
+      border:none;
+    } 
 
-   
+    .navbar-collapse {
+      background-color: transparent; 
+    }  
 
+    @media(max-width: 992px) {
+    .card {
+      width: 250px;
+      height: 480px; 
+    }
+    .fundo {
+      width: 100%;
+      text-align: center;
+    }
+    }
 
+    @media(max-width: 768px) {
+    .navbar-toggler  {
+      background-color: #bc4f17;
+      color:#FFFFFF;
+      border: none
+    }
+    .navbar-collapse {
+      background-color: transparent;
+    }
+    .buttom {
+      margin-left: 10px;
+      display: flex;
+    } 
+    }
 
 </style>
 
@@ -164,9 +192,9 @@
                               <a class="nav-link" href="#">Assistir</a>
                             </li>
                           </ul>
-                          <form class="d-flex" role="search">
+                        
                             <button type="button" class="btn btn-secondary buttom">Entrar</button>
-                          </form>
+                          
                         </div>
                       </div>
                     </div>
@@ -180,7 +208,6 @@
                         Se você pretende viajar para Gravity Falls, ouça o meu conselho: “Não confie <br> em ninguém”! A realidade é uma ilusão, o universo um holograma! <br>
                         Os irmãos Dipper e Mabel decidem passar as férias de verão com seu tio-avô <br> Stan   na afastada cidade de Gravity Falls. <br>
                         Mas a cada novo episódio descobrimos alguma loucura paranormal que provam <br>que a Cabana do Mistério não é para amadores. <br>
-
                       </p>
                     </div>
                     <div>
@@ -195,14 +222,14 @@
               <div class="card">
                   <img src="imagens/mabel.png" class="img">
                 <div id="sinopse mabel"> 
-                  
                   <span class="personagens-titulo">Mabel Pines:</span>
-                  <br>
+                    <br>
                   <span class="hr">_______________________</span>
-                  <br> <br>
-                  É uma menina alegre, amável e de espírito livre, ela usa uma variedade de suéteres coloridos para cada ocasião. 
-                  Mabel tem uma perspectiva otimista e simplista da vida não se importando o que os outros vão falar por suas costas.
-                  <br>
+                    <br>
+                    <br>
+                    Mabel é uma menina alegre, amável e de espírito livre, ela usa uma variedade de suéteres coloridos para cada ocasião. 
+                    Mabel tem uma perspectiva otimista e simplista da vida não se importando o que os outros vão falar por suas costas.
+                    <br>
                   <button type="button" class="btn btn-secondary buttom-personagens"><i class="fa-solid fa-plus"></i></button>
                 </div>
               </div>
@@ -210,17 +237,17 @@
                 <img src="imagens/dipper.png" class="img">
               <div id="sinopse dipper"> 
                 <span class="personagens-titulo">Dipper Pines:</span>
-                <br>
+                  <br>
                 <span class="hr">_______________________</span>
-                <br> <br>
-                Nascido com uma curiosidade fora o normal, Dipper não consegue ficar quieto e está sempre a procura de mistérios.
-                Ele é descrito pela sua irmã como paranoico e obcecado pelo sobrenatural desde tenra idade. Ele não gosta de ser chamado de fofo.
-                <br>
-                  <button type="button" class="btn btn-secondary buttom-personagens"><i class="fa-solid fa-plus"></i></button>
-            
+                  <br>
+                  <br>
+                  Nascido com uma curiosidade fora o normal, Dipper não consegue ficar quieto e está sempre a procura de mistérios.
+                  Ele é descrito pela sua irmã como paranoico e obcecado pelo sobrenatural desde tenra idade. Ele não gosta de ser chamado de fofo.
+                  <br>
+                <button type="button" class="btn btn-secondary buttom-personagens"><i class="fa-solid fa-plus"></i></button>
               </div>
-            </div>
-            <div class="card">
+              </div>
+              <div class="card">
               <img src="imagens/stan.png" class="img">
             <div id="sinopse stan"> 
               <span class="personagens-titulo">Stan Pines:</span>
@@ -243,8 +270,8 @@
             <br>
             <span class="hr">_______________________</span>
             <br> <br>
-            Wendy é uma adolescente de personalidade forte, prática, despreocupada e divertida e um pouco letárgica e bastante moleca.
-            Ela não gosta de trabalhar, apesar de não fazer nada enquanto está "trabalhando".
+            Wendy é uma adolescente de personalidade forte, prática, despreocupada e divertida.
+            É uma adolescente que trabalha de meio período na Cabana do Mistério, ela não gosta de trabalhar, apesar de não fazer nada enquanto está "trabalhando".
             <br>
                 <button type="button" class="btn btn-secondary buttom-personagens"><i class="fa-solid fa-plus"></i></button>
           </div>
@@ -270,7 +297,7 @@
         <span class="hr">_______________________</span>
         <br> <br>
         Bill é um demônio astuto, blasfemo, excêntrico, psicopata e fisicamente irreverente que acha a maioria das coisas divertidas,
-        principalmente se causarem sofrimento ou dano aos outros, ele é     ultrajante e estranho.
+        principalmente se causarem sofrimento ou dano aos outros, ele é ultrajante e estranho. Sendo ele o principal vilão.
         <br>
             <button type="button" class="btn btn-secondary buttom-personagens"><i class="fa-solid fa-plus"></i></button>
       </div>
@@ -304,6 +331,7 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 
   </body>
